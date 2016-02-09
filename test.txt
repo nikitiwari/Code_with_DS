@@ -1,0 +1,26 @@
+import java.io.*;
+public class cheffruits
+{
+    public static void main(String args[])throws IOException
+    {
+        InputStreamReader read=new InputStreamReader(System.in);
+        BufferedReader in=new BufferedReader(read);
+        int n,m,k;
+        System.out.println("Enter numbers");
+        n=Integer.parseInt(in.readLine());
+        m=Integer.parseInt(in.readLine());
+       k=Integer.parseInt(in.readLine());
+       while(k!=0)
+       {
+           if(n<m)
+           {k--;n++;
+            }
+            else if(m<n)
+            {k--;m++;
+            }
+            else if(n==m)
+            {n++;k--;
+            }
+        }
+        System.out.println((n-m));
+    }}
