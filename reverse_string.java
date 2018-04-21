@@ -33,6 +33,8 @@ public class reverse_string
         }
     }
     
+    //recursive function to reverse the string   #METHOD 2
+    
     static void reverse_str(String st)
     {
         if ((st==null)||(st.length() <= 1))
