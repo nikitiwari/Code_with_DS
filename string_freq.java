@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class string_freq{
-    public static void main(String args[])throws InstantiationException{
+    public static void main(String args[])throws IOException{
         
         Scanner sc=new Scanner(System.in);
         //reading user input
